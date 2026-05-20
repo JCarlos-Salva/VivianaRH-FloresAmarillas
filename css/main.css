@@ -41,17 +41,22 @@ body {
 }
 .titulo {
   margin-bottom: 120px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: clamp(12px, 2vw, 24px);
+  line-height: 1.7;
+  letter-spacing: clamp(1px, 0.6vw, 6px);
+  text-align: center;
+  text-shadow: 0 0 6px rgba(255,255,255,0.5);
+  width: min(90%, 1100px);
   font-family: "Arial Narrow", Arial, sans-serif;
   color: #ffffff;
-  text-shadow: 0 0 6px rgba(255,255,255,0.5);
   position:absolute;
   font-weight: bold;
-  letter-spacing: 10px;
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
   z-index: 10;
-  font-size: 30px;
 }
 @keyframes fadeIn {
   from {
