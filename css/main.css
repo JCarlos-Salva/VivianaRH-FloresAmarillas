@@ -42,13 +42,8 @@ body {
 .titulo {
   margin-bottom: 120px;
   margin: 0 auto;
-  padding: 20px;
-  font-size: clamp(12px, 2vw, 24px);
-  line-height: 1.7;
-  letter-spacing: clamp(1px, 0.6vw, 6px);
   text-align: center;
   text-shadow: 0 0 6px rgba(255,255,255,0.5);
-  width: min(90%, 1100px);
   font-family: "Arial Narrow", Arial, sans-serif;
   color: #ffffff;
   position:absolute;
@@ -57,6 +52,11 @@ body {
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
   z-index: 10;
+  width: 95%;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  padding: 10px;
 }
 @keyframes fadeIn {
   from {
